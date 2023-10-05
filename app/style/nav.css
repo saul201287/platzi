@@ -1,0 +1,147 @@
+.logo {
+  -webkit-box-align: center;
+  align-items: center;
+  display: grid;
+  grid-area: logo;
+  padding-left: 12px;
+}
+.log {
+  color: #fff;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+.fi {
+  margin-left: 0.25rem;
+}
+
+.logo-h {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+}
+.log {
+  color: #fff;
+  text-decoration: none;
+}
+.cabezera {
+  top: 0px;
+  box-shadow: none;
+  display: grid;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  height: 52px;
+  right: 0px;
+  width: 100%;
+  z-index: 31;
+  background: 0px 0px;
+  gap: 4px;
+}
+.navegar {
+  grid-template-areas: "logo live categories search menu actions login actionsCta";
+  grid-template-columns: auto fit-content(150px) auto 215px 1fr auto auto;
+  -webkit-box-align: center;
+  align-items: center;
+  display: grid;
+  padding-right: 12px;
+  position: relative;
+  color: rgb(239, 243, 248) !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+.Explore {
+  align-items: center;
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+}
+.ExploreButton {
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(190, 205, 227);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+  background: 0px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+.ExploreButton svg {
+  margin-left: 0.5rem;
+}
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+.menu {
+  background-color: rgb(44, 50, 60);
+  bottom: 0px;
+  left: 2rem;
+  position: absolute;
+  right: 0px;
+  top: 2rem;
+  overflow: hidden;
+}
+.menu ul {
+  padding: 0px;
+}
+.menu ul li {
+  display: block;
+  list-style-type: none;
+}
+.menu ul li a,
+.menu ul li span {
+  box-sizing: border-box;
+  color: rgb(239, 243, 248);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  position: relative;
+  border-radius: 8px;
+  margin: 0px 1rem;
+  padding: 0.75rem 1rem;
+}
+.menu ul li a svg,
+.menu ul li span svg {
+  color: rgb(51, 177, 255);
+  margin-right: 0.5rem;
+}
+.menu ul li:hover>a {
+  background-color: #121f3d
+}
+.ExploreMenu-hover {
+  color: #8da2c0 !important;
+  display: none;
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+
+li:hover span {
+  background-color: #121f3d;
+}
+li:hover .svg-inline--fa {
+  display: inline-block;
+}.menu ul li:hover>.schools {
+  display: block
+}
+
+.schools ul li:hover a {
+  background-color: #637a9d;
+}
+
+.ExploreMenu-routes ul li:hover a {
+  background-color: #24385b !important
+}

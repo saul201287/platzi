@@ -1,0 +1,259 @@
+.MarqueesCarousel-title {
+  color: rgb(141, 162, 192);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.MarqueesCarousel-title {
+  display: none;
+}
+.MarqueesCarousel-container {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.MarqueesCarousel-container-marquee {
+  display: block;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  width: max-content;
+}
+
+.MarqueesCarousel-container-marquee div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  float: left;
+  gap: 1rem;
+  overflow: hidden;
+  width: 50%;
+}
+
+.MarqueesCarousel-container-marquee div a {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  color: #dde0e5;
+  color: neutra-050;
+  -ms-filter: "alpha(opacity=80)";
+  filter: alpha(opacity=80);
+  float: left;
+  font-size: 1rem;
+  min-width: fit-content;
+  opacity: 0.8;
+  padding: 0.75rem 1.5rem;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  width: 50%;
+}
+
+.MarqueesCarousel-container-marquee div a:hover {
+  color: #0ae98a;
+}
+
+.MarqueesCarousel-container-marquee div a:active {
+  background-color: #0ae98a;
+}
+
+.MarqueesCarousel-container-marquee--left {
+  -webkit-animation: marqueeLeft 10s linear infinite;
+  -moz-animation: marqueeLeft 10s linear infinite;
+  -o-animation: marqueeLeft 10s linear infinite;
+  -ms-animation: marqueeLeft 10s linear infinite;
+  animation: marqueeLeft 10s linear infinite;
+}
+
+@media only screen and (min-width: 64rem) {
+  .MarqueesCarousel-container-marquee--left {
+    -webkit-animation: marqueeLeftDesktop 240s linear infinite;
+    -moz-animation: marqueeLeftDesktop 240s linear infinite;
+    -o-animation: marqueeLeftDesktop 240s linear infinite;
+    -ms-animation: marqueeLeftDesktop 240s linear infinite;
+    animation: marqueeLeftDesktop 240s linear infinite;
+  }
+}
+
+.MarqueesCarousel-container-marquee--right {
+  -webkit-animation: marqueeRight 15s linear infinite;
+  -moz-animation: marqueeRight 15s linear infinite;
+  -o-animation: marqueeRight 15s linear infinite;
+  -ms-animation: marqueeRight 15s linear infinite;
+  animation: marqueeRight 15s linear infinite;
+}
+
+@media only screen and (min-width: 64rem) {
+  .MarqueesCarousel-container-marquee--right {
+    -webkit-animation: marqueeRightDesktop 240s linear infinite;
+    -moz-animation: marqueeRightDesktop 240s linear infinite;
+    -o-animation: marqueeRightDesktop 240s linear infinite;
+    -ms-animation: marqueeRightDesktop 240s linear infinite;
+    animation: marqueeRightDesktop 240s linear infinite;
+  }
+}
+
+@-moz-keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-o-keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-moz-keyframes marqueeRight {
+  0% {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes marqueeRight {
+  0% {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@-o-keyframes marqueeRight {
+  0% {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@keyframes marqueeRight {
+  0% {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@-moz-keyframes marqueeLeftDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes marqueeLeftDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-o-keyframes marqueeLeftDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes marqueeLeftDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@-moz-keyframes marqueeRightDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+@-webkit-keyframes marqueeRightDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+@-o-keyframes marqueeRightDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes marqueeRightDesktop {
+  0% {
+    left: 0;
+  }
+
+  to {
+    left: 50%;
+  }
+}

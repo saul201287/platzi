@@ -1,0 +1,285 @@
+.home {
+  background-color: rgb(19, 22, 28);
+}
+
+div,
+section {
+  display: block;
+}
+
+* {
+  margin: 0px;
+}
+img {
+  overflow-clip-margin: content-box;
+  border-style: none;
+  overflow: clip;
+}
+.ExploreButton,
+.navegar div,
+.Menu2 li a {
+  color: rgb(239, 243, 248) !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  appearance: button;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0px;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+a {
+  cursor: pointer;
+  color: rgb(7, 145, 230);
+  background-color: initial;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 75rem) {
+  .Bg-animation {
+    background-image: url(https://static.platzi.com/media/uploads/P_Day_Hero_v5_UI_sola_2_d8f42f6939.png),
+      url(https://static.platzi.com/media/uploads/P_Day_Hero_v5_UI_sola_2_d8f42f6939.png);
+    background-position: calc(-500px - var(--scrollY)),
+      calc(100% + 500px + var(--scrollY));
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 1360px) {
+  .Bg-animation {
+    background-position: calc(-460px - var(--scrollY)),
+      calc(100% + 460px + var(--scrollY));
+  }
+}
+
+@media only screen and (min-width: 1360px) {
+  .Bg-animation {
+    background-position: calc(-460px - var(--scrollY)),
+      calc(100% + 460px + var(--scrollY));
+  }
+}
+
+.Hero {
+  display: grid;
+  height: 75vh;
+  margin-top: 0rem;
+  place-items: center;
+}
+
+.Hero {
+  margin-top: 0;
+}
+
+.Hero-content {
+  padding-bottom: 1.25rem !important;
+  padding-top: 4rem;
+  text-align: center;
+  width: 100%;
+}
+
+.u-wrapper {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto !important;
+  max-width: 1200px;
+  padding: 0 0.5rem;
+  position: relative;
+}
+
+.Hero-content-title {
+  color: #eff3f8;
+}
+
+.Hero-content-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (min-width: 75rem) {
+  .Hero-content-title {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .Hero-content-title span {
+    display: block;
+  }
+}
+
+.Hero-content-title span {
+  color: #0ae98a;
+  font-weight: 300;
+}
+
+.Hero-content-subtitle {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (min-width: 64rem) {
+  .Hero-content-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 340px;
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+  .Hero-content-subtitle {
+    font-size: 1.2rem;
+    max-width: 375px;
+  }
+}
+
+.Hero-content-subtitle {
+  color: #becde3;
+}
+
+.Hero-content-message {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+
+@media only screen and (min-width: 64rem) {
+  .Hero-content {
+    max-width: 800px !important;
+  }
+}
+
+.Hero-content-input {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(28, 32, 40);
+  display: flex;
+  height: 3rem;
+  padding-right: 1.25rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(221, 224, 229);
+  border-image: initial;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+}
+
+.Hero-content-input:hover {
+  border: 1px solid #0ae98a;
+}
+
+@media only screen and (min-width: 64rem) {
+  .Hero-content-input {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+  }
+}
+
+.Hero-content-input:focus-within {
+  background-color: #000;
+}
+
+.Hero-content-input input {
+  -webkit-box-flex: 1;
+  background-color: transparent;
+  color: rgb(199, 204, 212);
+  max-height: 100%;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 8px;
+  flex: 1 1 100%;
+  padding: 1rem 1.25rem;
+}
+
+.Hero-content-input input:focus-visible {
+  outline: none;
+}
+
+.Hero-content-input button {
+  background-color: transparent;
+  cursor: pointer;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+.Hero-content-input button svg path {
+  fill: #dde0e5;
+}
+.Button {
+  color: rgb(3, 9, 30);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.6;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.primary-btn {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: #0c1633 !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 2.5rem !important;
+  text-transform: lowercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.Heading h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+  padding: 2rem 0;
+}
+
+@media only screen and (min-width: 75rem) {
+  .Heading h2 {
+    width: 70%;
+  }
+}
+.home .Footer .FooterContainer-bottom, .home .Footer .FooterContainer-bottom .CategoriesSection, .home .Footer .FooterContainer-mid, .home .Footer .FooterContainer-mid .CategoriesSection, .home .Footer .FooterContainer-up, .home .Footer .FooterContainer-up .CategoriesSection {
+  background: #1c2028 !important;
+}

@@ -1,0 +1,121 @@
+.BulletExplainer {
+    margin: 2rem 0;
+    padding: 2rem 0
+}
+
+@media only screen and (min-width: 48rem) {
+    .BulletExplainer {
+        padding: 3rem 0
+    }
+}
+
+@media only screen and (min-width: 75rem) {
+    .BulletExplainer {
+        padding: 2.6rem 0
+    }
+}
+
+.BulletExplainer {
+    background: white;
+    padding: 3rem 0;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+.BulletExplainer:before {
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+    background: -webkit-linear-gradient(bottom, #fff 30%, transparent 0 70%);
+    background: -moz-linear-gradient(bottom, #fff 30%, transparent 0 70%);
+    background: -o-linear-gradient(bottom, #fff 30%, transparent 0 70%);
+    background: -ms-linear-gradient(bottom, #fff 30%, transparent 0 70%);
+    background: linear-gradient(0deg, #fff 30%, transparent 0 70%);
+    bottom: -50px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 100% 77%, 50% 100%, 0 75%, 0 75%);
+    content: "";
+    height: 180px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.BulletExplainer-content {
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+@media only screen and (min-width: 64rem) {
+    .BulletExplainer-content {
+        border-radius: 12px 12px 0 0
+    }
+}
+
+.BulletExplainer-heading {
+    color: #07c373;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase
+}
+
+@media only screen and (min-width: 48rem) {
+    .BulletExplainer-heading {
+        font-size: 1.5rem
+    }
+}
+
+.BulletExplainer-content {
+    padding: 0;
+}
+
+.BulletExplainer-title {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    letter-spacing: -.01rem;
+    line-height: 2.125rem;
+    margin-bottom: 3.125rem;
+    text-transform: uppercase
+}
+.BulletExplainer-title > p{
+    color: black !important;
+}
+.BulletExplainer-bullets {
+    grid-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.62rem, 1fr));
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.BulletExplainer-bulletTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: .5rem
+}
+
+@media only screen and (min-width: 48rem) {
+    .BulletExplainer-bulletTitle {
+        font-size: 1.25rem;
+        margin-bottom: .75rem
+    }
+}
+
+.BulletExplainer-bulletDescription {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.6
+}
+
+.BulletExplainer-bulletTitle {
+    font-weight: bold;
+}

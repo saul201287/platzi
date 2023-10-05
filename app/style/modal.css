@@ -1,0 +1,300 @@
+
+.Modal-wrapper {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    bottom: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    height: fit-content;
+    -webkit-justify-content: center;
+    justify-content: center;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -webkit-transform: translateY(100vh);
+    -moz-transform: translateY(100vh);
+    -o-transform: translateY(100vh);
+    -ms-transform: translateY(100vh);
+    transform: translateY(100vh);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    width: fit-content;
+    z-index: 8
+}
+
+.Modal-wrapper {
+    z-index: 99;
+}
+
+.Modal-wrapper.showModal {
+    -ms-filter: none;
+    filter: none;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.Modal .showModal {
+    -webkit-box-align: initial;
+    -moz-box-align: initial;
+    -o-box-align: initial;
+    -ms-flex-align: initial;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-align-items: initial;
+    align-items: normal;
+    color: #fff;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 1rem;
+    text-align: left;
+}
+
+.Modal-overlay {
+    -webkit-animation: fadeIn .3s ease forwards;
+    -moz-animation: fadeIn .3s ease forwards;
+    -o-animation: fadeIn .3s ease forwards;
+    -ms-animation: fadeIn .3s ease forwards;
+    animation: fadeIn .3s ease forwards;
+    background-color: rgba(3, 9, 30, .7);
+    bottom: 0;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 8
+}
+
+.Modal .Modal-wrapper--bottom.showModal {
+    padding: 0;
+    top: auto
+}
+
+@media only screen and (min-width: 48rem) {
+    .Modal .Modal-wrapper--bottom.showModal {
+        top: 0
+    }
+}
+
+
+.ModalBase {
+    background-color: #121f3d;
+    border-radius: 16px 16px 0 0;
+    position: relative
+}
+
+.Modal-wrapper .ModalBase {
+    background-color: #1c2028;
+}
+
+@media only screen and (min-width: 48rem) {
+    .ModalBase {
+        border-radius: 16px
+    }
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]-moz-focusring, [type=reset]-moz-focusring, [type=submit]-moz-focusring, button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+.ModalBase button {
+    background-color: initial !important;
+    color: #8da2c0;
+    position: absolute;
+    right: .5rem;
+    top: .5rem
+}
+
+.InnerRegisterModal-head {
+    background-color: #24385b;
+    letter-spacing: -.008em
+}
+
+.InnerRegisterModal-head-title {
+    color: #fff !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -.008em;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem
+}
+
+@media only screen and (min-width: 48rem) {
+    .InnerRegisterModal-head-title {
+        font-size: 1.75rem
+    }
+}
+
+.InnerRegisterModal-head-description {
+    color: #becde3;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem
+}
+
+@media only screen and (min-width: 48rem) {
+    .InnerRegisterModal-head-description {
+        font-size: 1.125rem
+    }
+}
+
+.InnerRegisterModal-body-social {
+    margin-bottom: 1.25rem;
+    margin-top: 1rem
+}
+
+.InnerRegisterModal-body-login {
+    border-top: 1px solid #24385b;
+    color: #8da2c0;
+    padding-top: 1.5rem;
+    text-align: center;
+    width: 100%
+}
+
+.InnerRegisterModal-body-login a {
+    color: #98ca3f
+}
+
+.InnerRegisterModal-body-login a:hover {
+    color: #c1df8b
+}
+
+.ModalHead {
+    background-color: #24385b;
+    border-radius: 1rem 1rem 0 0;
+    padding: 2rem 1.5rem
+}
+
+.ModalBase {
+    background-color: #121f3d;
+    border-radius: 16px 16px 0 0;
+    position: relative
+}
+
+.ModalBody {
+    padding: 2rem 1.5rem
+}
+
+.Modal-wrapper .ModalHead {
+    background: url(https://static.platzi.com/media/uploads/Isotipo_Outline_Repetition_578e31f67c.svg);
+    background-color: #2c323c;
+    background-position: -25px -20px;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+}
+
+.SocialNetworkSSO {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #24385b;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.75rem;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+.SocialNetworkSSO a {
+    background-color: initial;
+    margin: 0;
+    padding: 0;
+}
+
+.SocialNetworkSSO--email {
+    margin-top: 1.5rem;
+}
+
+.Modal-wrapper .SocialNetworkSSO {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 0 0 #a4abb6;
+    box-shadow: 0 2px 0 0 #a4abb6;
+    color: #13161c;
+}
+
+.Modal-wrapper .SocialNetworkSSO a {
+    background-color: initial;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.Modal-wrapper .SocialNetworkSSO--email {
+    background-color: initial;
+    border: 1px solid #59616f;
+    -webkit-box-shadow: 0 2px 0 0 #59616f;
+    box-shadow: 0 2px 0 0 #59616f;
+}
+
+.Modal-wrapper .SocialNetworkSSO--email a {
+    color: #dde0e5;
+}
+
+.InnerRegisterModal-body-login {
+    border-top: 1px solid #24385b;
+    color: #8da2c0;
+    padding-top: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.Modal-wrapper .InnerRegisterModal-body-login a {
+    color: #eff1f3;
+    text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+.subexplore {
+  position: fixed;
+  width: fit-content;
+}
+.categorias {
+  position: relative;
+  border-radius: 12px 0px 0px 12px;
+}
+.categorias {
+  background-color: rgb(44, 50, 60);
+  box-sizing: border-box;
+  height: 472px;
+  max-height: 90vh;
+  padding-bottom: 1rem;
+  width: 323px;
+}
+.titulo {
+  color: #8da2c0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  padding: 1.25rem 1rem 1.5rem;
+  text-transform: uppercase;
+}
+.schools {
+  box-sizing: border-box;
+  height: 472px;
+  max-height: 90vh;
+  padding-bottom: 1rem;
+  width: 323px;
+}
+.schools {
+  background-size: 570px;
+  display: none;
+  left: 100%;
+  position: absolute;
+  top: 0px;
+  background-position: 70px 110px;
+  background-repeat: no-repeat;
+  border-left: 1px solid rgb(64, 88, 124);
+}
+.schools {
+  background: rgb(44, 50, 60);
+}
+.titulo b {
+    color: rgb(99, 122, 157);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+}

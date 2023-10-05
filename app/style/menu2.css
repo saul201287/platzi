@@ -1,0 +1,133 @@
+@media only screen and (min-width: 83.125rem) {
+  .Menu2 {
+    justify-self: end;
+  }
+}
+.Menu2 {
+  grid-area: menu;
+}
+.menu-cont {
+  display: block;
+  height: 100%;
+  left: 0px;
+  min-height: auto;
+  overflow-y: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  background: 0px 0px;
+}
+
+.Menu2 ul {
+  list-style: none;
+  margin: 0px;
+  padding: 2px 12px;
+}
+
+.Menu-list li {
+  display: inline-block;
+  font-size: 14px;
+  list-style-type: none;
+  border-bottom: none;
+  padding: 5px 12px 5px 5px;
+}
+.Menu2 li a,
+.Menu2 li div {
+  color: rgb(239, 243, 248);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+.Menu-list li:first-of-type {
+  margin-top: 0px;
+}
+.Explore {
+  align-items: center;
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+}
+.ExploreButton {
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(190, 205, 227);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+  background: 0px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  grid-area: categories / categories / categories / categories;
+}
+.Menu-list li button {
+  color: rgb(190, 205, 227);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-align: left;
+  width: 100%;
+  background: 0px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 0px;
+}
+.Explore-cont {
+  position: fixed;
+  width: fit-content;
+}
+.ExploreMenu {
+  background: #2d323a;
+  bottom: 0px;
+  left: 2rem;
+  position: absolute;
+  right: 0px;
+  top: 2rem;
+}
+.menu-des {
+  background-color: rgb(36, 56, 91);
+  color: rgb(239, 243, 248);
+  border-radius: 0.75rem;
+}
+.ItemsDropdown-list {
+  padding: 1rem !important;
+}
+li.ItemsDropdown-item {
+  display: block !important;
+}
+.Menu2 ul li a,
+.Menu2 ul li span {
+  box-sizing: border-box;
+  color: rgb(239, 243, 248);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  position: relative;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+.ItemsDropdown-list a.ItemsDropdown-link {
+  align-items: center;
+  display: flex;
+  min-width: 12.8rem;
+  gap: 0.5rem;
+  margin: 0px;
+  padding: 0.5rem 1rem;
+}
+.ItemsDropdown-list a.ItemsDropdown-link figure {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.ItemsDropdown-list a.ItemsDropdown-link figure img {
+  max-width: 100%;
+}

@@ -1,0 +1,103 @@
+.VideoDiscover {
+    height: 950px;
+    margin-top: 1rem;
+    position: relative
+}
+
+@media only screen and (min-width: 64rem) {
+    .VideoDiscover {
+        height: 800px
+    }
+}
+
+.VideoDiscover {
+    height: 400px;
+    margin: 4rem 0;
+}
+
+.VideoDiscover-video, .VideoDiscover-video video {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.VideoDiscover-video video {
+    object-fit: cover
+}
+
+.VideoDiscover-overlay {
+    background: -webkit-linear-gradient(#13161c, rgba(19, 22, 28, .2), #13161c);
+    background: -moz-linear-gradient(#13161c, rgba(19, 22, 28, .2), #13161c);
+    background: -o-linear-gradient(#13161c, rgba(19, 22, 28, .2), #13161c);
+    background: -ms-linear-gradient(#13161c, rgba(19, 22, 28, .2), #13161c);
+    background: linear-gradient(#13161c, rgba(19, 22, 28, .2), #13161c);
+    height: 101%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -1px
+}
+
+.VideoDiscover-overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.noScroll {
+    height: 100%;
+    overflow: hidden !important;
+    position: fixed;
+    width: 100%
+}
+
+.VideoDiscover-container {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.VideoDiscover-content {
+    color: #eff3f8;
+    max-width: 80% !important;
+    text-align: center
+}
+
+@media only screen and (min-width: 64rem) {
+    .VideoDiscover-content {
+        max-width: auto !important
+    }
+}
+
+.VideoDiscover-content h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-top: 12.5rem
+}
+
+@media only screen and (min-width: 64rem) {
+    .VideoDiscover-content h2 {
+        font-size: 3.5rem
+    }
+}
+
+.VideoDiscover-content h2 {
+    margin-top: 1rem;
+}
+
+.VideoDiscover-content p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 64rem) {
+    .VideoDiscover-content p {
+        font-size: 1.4rem
+    }
+}

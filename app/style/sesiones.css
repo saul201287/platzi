@@ -1,0 +1,38 @@
+.Nav-header-mobileCtas-actions {
+    -webkit-box-flex: 1;
+    -webkit-box-pack: end;
+    justify-content: end;
+    flex: 1 1 100%;
+    gap: 1rem;
+    grid-area: actionsCta / actionsCta / actionsCta / actionsCta;
+}
+.Nav-header-mobileCtas, .Nav-header-mobileCtas-actions {
+    display: flex;
+}
+
+.Nav-header-mobileCtas-actions--join {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255) !important;
+    text-transform: capitalize !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    padding: 0.25rem 0.5rem !important;
+}
+.Button--medium {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}
+.Nav-header-mobileCtas-actions--login {
+    font-weight: 600;
+    background-color: initial !important;
+    color: rgb(255, 255, 255) !important;
+    text-transform: capitalize !important;
+    padding: 0.25rem 0.5rem !important;
+}
+.ItemsDropdown-list li.ItemsDropdown-item:hover {
+    background-color: #40587c;
+    border-radius: .5rem
+}
